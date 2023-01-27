@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    width: 100%;
+    height: 165px;
+    background-color: #6E8238;
+}
+
+.banner__icon{
+    width: 19.64%;
+    height: 100%;
+    background-color: #00B8AD;
+}
+
+.navbar{
+    width: 100%;
+    height: 96px;
+    background-color: #A3904D;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__links{
+    display: flex;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin-left: 59px;
+}
+
+
+.home{
+    margin-top: 45px;
+    padding-top: 24px;
+    width: 100%;
+    height: 795px;
+    background-color: #E2E2E2;
+    text-align: center;
+}
+
+.home__title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.box_area{
+    padding: 44px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    row-gap: 38px;
+}
+
+.box{
+    width: 288px;
+    height: 291px;
+    background: linear-gradient(0deg, #44948A, #44948A), linear-gradient(0deg, #44948A, #44948A), linear-gradient(0deg, #44948A, #44948A), #44948A;
+}
+
+.about{
+    margin-top: 45px;
+    padding: 24px;
+    width: 100%;
+    height: 452px;
+    background-color: #336981;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: white;
+}
+
+.about__desc{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+}
+
+.services{
+    margin-top: 45px;
+    padding-top: 24px;
+    width: 100%;
+    height: 795px;
+    background-color: #E2E2E2;
+    text-align: center;
+}
+
+.contact__title, .services__title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #464646;
+}
+
+.services > .box_area{
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.contact{
+    margin: 45px;
+    padding-top: 24px;
+    width: 95%;
+    height: 535px;
+    background-color: #D9D9D9;
+    align-self: center;
+    text-align: center;
+}
+
+.form__area{
+    width: 25%;
+    padding-left: 40px;
+    text-align: left;
+    display: flex;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+input{
+    width: 381px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: #656565;
+    box-shadow: none;
+    border: none;
+}
+
+.message{
+    height: 157px;
+}
+
+.send__button{
+    width: 100px;
+    color: white;
+}
